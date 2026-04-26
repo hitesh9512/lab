@@ -1,1 +1,1 @@
-print("Hello, World! ci pipeline")
+print("hello world")
