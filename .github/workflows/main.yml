@@ -19,5 +19,12 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Debug current directory
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files in repo:"
+          ls -R
+
       - name: Run script
-        run: python ./hello.py
+        run: python hello.py
